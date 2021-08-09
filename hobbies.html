@@ -33,36 +33,194 @@
      text-decoration: none;
      color: #A73489;
     }
+
+    .flex-container {
+    width: 700px;
+    min-height: 300px;
+
+    /* Safari */
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    /* Standard syntax */
+    display: flex;
+    align-items: center;
+}
+.flex-container div{
+    padding: 10px;
+}
+.item1 {
+    width: 20%;
+    height: 120px;
+    font-size: 32px;
+    background-color: #B97A95;
+
+}
+.item2 {
+    width: 50%;
+    height: 300px;
+}
+.item3 {
+    width: 30%;
+    height: 150px;
+}
+
+
+.flex-containerA {
+    width: 500px;
+    min-height: 300px;
+
+
+
+    /* Safari */
+    display: -webkit-flex;
+    -webkit-align-items: flex-end;
+    /* Standard syntax */
+    display: flex;
+    align-items: flex-end;
+}
+.flex-containerA div{
+    padding: 10px;
+}
+.item4 {
+    width: 30%;
+    height: 100px;
+
+}
+.item5 {
+    width: 20%;
+    height: 200px;
+
+}
+.item6 {
+    width: 50%;
+    height: 150px;
+
+}
+
+
+
+
+
+.flex-containerB {
+    width: 500px;
+    min-height: 300px;
+
+
+    /* Safari */
+    display: -webkit-flex;
+    -webkit-align-items: flex-start;
+    /* Standard syntax */
+    display: flex;
+    align-items: flex-start;
+}
+.flex-containerB div{
+    padding: 10px;
+}
+.item7 {
+    width: 30%;
+    height: 100px;
+}
+.item8 {
+    width: 40%;
+    height: 200px;
+}
+
+
 </style>
 
 </head>
 
 <body>
-  <h1>HOBBIES and INTERESTS</h1>
-  <ol>
-    <li>add item</li>
-    <li>add item</li>
-    <li>add item</li>
-    <li>add item</li>
-    <li>add item</li>
-    <li>add item</li>
-  </ol>
 
+  <center>
+
+  <h1>HOBBIES and INTERESTS</h1>
+
+  <br />
+  <hr />
+  <br />
+
+</center>
+
+<table>
+<tr>
+  <td>
+    <div class="flex-container">
+          <div class="item1"><center>I <br />💖<br /> GOLF</center> </div>
+          <div class="item2"><p><i>I AM A KEEN  AMATEUR GOLFER AND TRY TO MAKE TIME TO PLAY EVERY DAY,
+          WEATHER PERMITTING. </i></p></div>
+          <div class="item3"><img style="border-radius: 100%"
+            src="golf.png"
+            alt="Picture of Golfer" /></div>
+      </div>
+
+  </td>
+
+  <td>
+    <div class="flex-containerA">
+        <div class="item4"><p style="color: blue;">Also a total sci-fi addict, movies and books.</p></div>
+        <div class="item5"><img style="border-radius: 10% 20% 30% 40%"
+          src="alien.png"
+          alt="Picture of Alien Monster" /></div>
+        <div class="item6"><img style="border-radius: 30%"
+          src="ufo.png"
+          alt="Picture of UFO" /></div>
+    </div>
+
+  </td>
+</tr>
+
+<tr>
+  <td>
+    <div class="flex-containerB">
+                                      <div class="item7">
+                                      <p style="color: green;">Have travelled half the world, half still to see!!</p>
+                                      </div>
+
+
+
+                                      <div class="item8"><img style="border-radius: 100%"
+                                        src="mountain.png"
+                                        alt="Picture of Mountain" /></div>
+
+    </div>
+
+  </td>
+
+  <td>
+    <div class="flex-container">
+          <p>
+            I also love spending time with friends and family, both out and at each other's homes.<br />
+            Enjoy cooking and eating.<br />
+            Learning IT is very definitely absorbing.
+          </p>
+      </div>
+
+  </td>
+</tr>
+</table>
+
+
+  <br />
+  <hr />
+  <br />
+
+
+<center>
   <p>
-    <a href="index.html">link back to index page.</a>
+    <a href="index.html">CV Home Page</a> &nbsp &nbsp &nbsp &nbsp
+    <a href="education.html">Education and Qualifications</a> &nbsp &nbsp &nbsp &nbsp
+    <a href="workexperience.html">Work Experience</a> &nbsp &nbsp &nbsp &nbsp
+    <a href="about.html">About Me</a> &nbsp &nbsp &nbsp &nbsp
+    <a href="contact.html">Contact Me</a>
   </p>
-  <p>
-    <a href="contact.html">link back to contact page.</a>
-  </p>
-  <p>
-    <a href="workexperience.html">link back to work experience page.</a>
-  </p>
-  <p>
-    <a href="education.html">link back to education page.</a>
-  </p>
-  <p>
-    <a href="about.html">link back to about me page.</a>
-  </p>
+
+  <br />
+  <hr />
+
+
+
+  </center>
 
 </body>
 
